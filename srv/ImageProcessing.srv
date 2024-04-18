@@ -1,0 +1,7 @@
+# Request
+sensor_msgs/Image image
+string target
+---
+# Response
+string pred_phrases
+float32[] bounding_boxes  # [x_min, y_min, x_max, y_max] for each box

@@ -1,0 +1,5 @@
+# GetState.srv
+---
+int32 id         # The ID of the current state
+string state_name   # The name of the current state
+string state_detail # Additional details about the current state
